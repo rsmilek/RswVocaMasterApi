@@ -8,7 +8,7 @@ using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
 using System.Net;
 
-namespace RswVocaMasterApi;
+namespace RswVocaMasterApi.Functions;
 
 public class Function1
 {
