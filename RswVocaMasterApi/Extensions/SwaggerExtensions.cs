@@ -4,7 +4,7 @@ using Microsoft.Azure.WebJobs.Extensions.OpenApi.Core.Enums;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 
-namespace RswVocaMasterApi.Extensions;
+namespace Rsw.VocaMaster.Api.Extensions;
 
 public static class SwaggerExtensions
 {
