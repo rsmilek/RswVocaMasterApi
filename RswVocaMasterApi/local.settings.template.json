@@ -1,0 +1,15 @@
+// local.settings.json is a file used by Azure Functions projects for local development only.
+// In production, local.settings.json is ignored.
+// Instead, you manage settings in the Azure Portal under your Function App's Configuration blade.
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "ConnectionString": "[ADD-THE-CONNECTION-STRING]",
+    "DatabaseName": "[ADD-THE-DATABASE-NAME]"
+  },
+  "Host": {
+    "CORS": "*"
+  }
+}

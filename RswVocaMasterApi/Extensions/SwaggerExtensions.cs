@@ -8,7 +8,7 @@ namespace Rsw.VocaMaster.Api.Extensions;
 
 public static class SwaggerExtensions
 {
-    public static void AddSwagger(this IServiceCollection services)
+    public static IServiceCollection AddSwagger(this IServiceCollection services)
     {
         const string ApiGithubUrl = "https://github.com/rsmilek/RswVocaMasterApi";
         const string ApiUrl = "https://RswVocaMasterApi.azurewebsites.com";
@@ -44,5 +44,7 @@ public static class SwaggerExtensions
 
             return options;
         });
+
+        return services;
     }
 }

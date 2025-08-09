@@ -9,6 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rsw.VocaMaster.Domain", "Rs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rsw.VocaMaster.Infrastructure", "Rsw.VocaMaster.Infrastructure\Rsw.VocaMaster.Infrastructure.csproj", "{B4437641-F4BE-440D-BD4B-8E9C2D88362A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rsw.VocaMaster.SharedKernel", "Rsw.VocaMaster.SharedKernel\Rsw.VocaMaster.SharedKernel.csproj", "{3779797C-33F4-4885-A273-E26692C4C9FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		IgnoredWords.dic = IgnoredWords.dic
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +35,10 @@ Global
 		{B4437641-F4BE-440D-BD4B-8E9C2D88362A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4437641-F4BE-440D-BD4B-8E9C2D88362A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4437641-F4BE-440D-BD4B-8E9C2D88362A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3779797C-33F4-4885-A273-E26692C4C9FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3779797C-33F4-4885-A273-E26692C4C9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3779797C-33F4-4885-A273-E26692C4C9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3779797C-33F4-4885-A273-E26692C4C9FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
