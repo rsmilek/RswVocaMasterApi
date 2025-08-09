@@ -15,4 +15,8 @@
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.OpenApi" Version="1.5.1" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="2.0.5" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rsw.VocaMaster.Domain\Rsw.VocaMaster.Domain.csproj" />
+    <ProjectReference Include="..\Rsw.VocaMaster.Infrastructure\Rsw.VocaMaster.Infrastructure.csproj" />
+  </ItemGroup>
 </Project>
